@@ -18,7 +18,7 @@ To get started with the Library Search Application, follow these steps:
 - Download the project from GitHub or clone it using the following command:
 
 Copy code
-~ git clone https://github.com/<username>/<repository-name>.git
+~ git clone https://github.com/UncleMunt/Java_Library_Application.git
 
 Open the project in your preferred IDE.
 Build the project using Maven by running the following command in the project directory:
