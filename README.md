@@ -1,26 +1,50 @@
-# library-management-system-template
+Library Search Application
 
-## Library Management System
-In this assignment, you will build a simple library management system using Java. The system will allow users to view all books in the library's inventory, search for a book by title, author, or ISBN, check out a book to a patron, return a book that was previously checked out, and add a new book to the library's inventory.
+The Library Search Application is a Java program built with Maven that allows users to manage a library. Users can add books, remove books, checkout books, return books, view all books, and upload a library from a file. This application is perfect for anyone looking to organize their personal library or manage a small community library.
 
-## Usage
-* View all books
-* Search for a book
-* Check out a book
-* Return a book
-* Add a new book
-* Quit
+Features
 
-## Requirements
-To complete this assignment, you will need to create the following classes:
-
-`Book`: A class representing a book with fields for title, author, ISBN, checked out status, and patron name.
-`Library`: A class representing the library with a list of books in its inventory and methods for viewing all books, searching for a book, checking out a book, returning a book, and adding a new book to the inventory.
-`UserInterface`: A class for handling user input and displaying output to the console.
-You will also need to create a pom.xml file for building the project with Maven.
+- Add books to the library
+- Remove books from the library
+- Checkout books to a patron
+- Return books to the library
+- View all books in the library
+- Upload a library from a file
 
 Getting Started
-* Clone the repository from GitHub.
-* Create a new Maven project in your preferred IDE.
-* Implement the Book, Library, and UserInterface classes.
-* Test your implementation by running the App class.
+
+To get started with the Library Search Application, follow these steps:
+
+- Download the project from GitHub or clone it using the following command:
+
+Copy code
+~ git clone https://github.com/<username>/<repository-name>.git
+
+Open the project in your preferred IDE.
+Build the project using Maven by running the following command in the project directory:
+
+Copy code
+~ mvn clean package
+
+Run the application using the following command:
+
+Copy code
+~ mvn exec:java
+
+Usage
+
+When the application starts, you will see a menu with the following options:
+
+- Add a book
+- Remove a book
+- Checkout a book
+- Return a book
+- View all books
+- Upload a library from a file
+- Exit
+
+Select an option by entering the corresponding number. Follow the prompts to complete the action.
+
+Credits
+
+The Library Search Application was created by Hunter Robertson.
